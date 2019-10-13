@@ -1,4 +1,4 @@
-# ubuntu environment settings
+# ubuntu 18.04 LTS environment settings
 ## base env
 1. vim
 1. ssh server
@@ -60,4 +60,7 @@
 > sudo systemctl start docker
 ##### 5.7 测试运行
 > sudo docker run hello-world
+##### 5.8 添加当前用户到 docker 用户组，可以不用 sudo 运行 docker（可选）
+> sudo groupadd docker <br/>
+> sudo usermod -aG docker $USER
 ---
