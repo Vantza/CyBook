@@ -5,8 +5,9 @@
 1. python3
 1. java8
 1. docker
+2. git
 
-### **1. vim**
+### **1. vim** （server版本自带）
 > sudo apt install vim
 
 ---
@@ -25,14 +26,17 @@
 ##### 2.4 将其他机器公钥放入authorized_keys文件中
 
 > vim ~/.ssh/authorized_keys
+##### 2.5 生成本机ssh key，用于获取项目
+> ssh-keygen -t rsa -C "your_email@example.com"
 
 ---
 
-### **3. python3**
+### **3. python3** (server版本自带)
 > sudo apt install python3
 >> 由于2020年1月1日起，2.x版本就不再维护了，故以后只使用3及以上版本
 
-
+##### 3.1 安装pip工具
+> sudo apt install python3-pip
 ---
 
 ### **4. java8**
@@ -64,3 +68,6 @@
 > sudo groupadd docker <br/>
 > sudo usermod -aG docker $USER
 ---
+### **6. git** (server版本自带)
+##### 6.1 安装git
+> sudo apt install git
