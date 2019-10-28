@@ -46,6 +46,8 @@
 ---
 
 ### **5. docker**
+##### ！！！2019-10-28 中科大的源更新不了 可使用清华源替代
+> https://mirror.tuna.tsinghua.edu.cn/help/docker-ce/
 ##### 5.1 更换国内软件源 （中科大）
 > sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak <br/>
 > sudo sed -i 's/archive.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list <br/>
