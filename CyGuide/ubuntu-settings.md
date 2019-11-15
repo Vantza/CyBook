@@ -37,6 +37,9 @@
 
 ##### 3.1 安装pip工具
 > sudo apt install python3-pip
+
+##### 3.2 将localbin路径放入path中（安装scrapy后找不到文件需要）
+> export PATH="${PATH}:${HOME}/.local/bin"
 ---
 
 ### **4. java8**
@@ -69,6 +72,8 @@
 ##### 5.8 添加当前用户到 docker 用户组，可以不用 sudo 运行 docker（可选）
 > sudo groupadd docker <br/>
 > sudo usermod -aG docker $USER
+##### 5.9 安装docker compose （后续需使用更好的编排方式，k8s等）
+> pip3 install docker-compose
 ---
 ### **6. git** (server版本自带)
 ##### 6.1 安装git

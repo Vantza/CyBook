@@ -2,6 +2,7 @@
  a bot for house info from lianjia
 
 # Environment
+> scrapy version -v
 * Scrapy       : 1.7.3
 * lxml         : 4.4.1.0
 * libxml2      : 2.9.9
